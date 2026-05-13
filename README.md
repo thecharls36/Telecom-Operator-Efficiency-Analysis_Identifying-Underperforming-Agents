@@ -1,0 +1,39 @@
+# Telecom Operator Efficiency Analysis: Identifying Underperforming Agents
+
+## Descripción del Proyecto
+Análisis integral del desempeño de operadores en el servicio de telefonía virtual CallMeMaybe, enfocado en identificar agentes ineficaces mediante el análisis de métricas clave como llamadas perdidas, tiempos de espera y volumen de llamadas. El proyecto utiliza técnicas de data science para desarrollar un sistema de clasificación que permita a los supervisores priorizar intervenciones y optimizar la gestión de recursos humanos.
+
+## Objetivo General
+Desarrollar un sistema analítico integral para identificar y clasificar operadores ineficaces en el servicio de telefonía virtual CallMeMaybe, mediante el análisis de métrices clave como llamadas perdidas, tiempos de espera y volumen de llamadas salientes, utilizando técnicas de análisis exploratorio, clustering y pruebas estadísticas para validar hipótesis de negocio y generar recomendaciones accionables que optimicen la gestión de recursos humanos y mejoren la experiencia del cliente.
+
+## Datasets Utilizados
+
+### **telecom_dataset_new.csv** (41,491 registros después de limpieza)
+- `user_id`: ID de la cuenta de cliente
+- `date`: Fecha de las estadísticas
+- `direction`: Dirección de llamada (`in`/`out`)
+- `internal`: Si la llamada fue interna (True/False)
+- `operator_id`: Identificador del operador (1,092 únicos)
+- `is_missed_call`: Si fue llamada perdida
+- `calls_count`: Número de llamadas
+- `call_duration`: Duración de la llamada (sin tiempo de espera)
+- `total_call_duration`: Duración total (con tiempo de espera)
+
+### **telecom_clients.csv** (732 registros)
+- `user_id`: ID de usuario
+- `tariff_plan`: Plan tarifario (A, B, C)
+- `date_start`: Fecha de registro
+
+## Contenido del Repositorio
+
+```bash
+TELECOM-OPERATOR-EFFICIENCY-ANALYSIS/
+├── Dashboard/
+│   ├── dash_data_tableau.csv   # Datos procesados para el dashboard (Tableau)
+│   ├── Dashboard.twbx          # Dashboard interactivo en Tableau
+│   └── Link dashboard.txt      # Enlace público al dashboard (Tableau Public)
+├── Informe Técnico.pdf         # Informe técnico con análisis y conclusiones
+├── ProyectoFinal.ipynb         # Notebook principal con el desarrollo del proyecto
+├── README.md                   # Descripción general del proyecto
+├── telecom_clients.csv         # Datos de clientes y planes tarifarios
+└── telecom_dataset_new.csv     # Registros de llamadas y métricas de operadores
