@@ -26,14 +26,14 @@ Desarrollar un sistema analítico integral para identificar y clasificar operado
 
 ## Contenido del Repositorio
 
-```bash
-TELECOM-OPERATOR-EFFICIENCY-ANALYSIS/
-├── Dashboard/
-│   ├── dash_data_tableau.csv   # Datos procesados para el dashboard (Tableau)
-│   ├── Dashboard.twbx          # Dashboard interactivo en Tableau
-│   └── Link dashboard.txt      # Enlace público al dashboard (Tableau Public)
-├── Informe Técnico.pdf         # Informe técnico con análisis y conclusiones
-├── ProyectoFinal.ipynb         # Notebook principal con el desarrollo del proyecto
-├── README.md                   # Descripción general del proyecto
-├── telecom_clients.csv         # Datos de clientes y planes tarifarios
-└── telecom_dataset_new.csv     # Registros de llamadas y métricas de operadores
+| Ruta / Archivo                | Tipo        | Descripción                                                   |
+|------------------------------|-------------|---------------------------------------------------------------|
+| `Dashboard/`                 | Carpeta     | Recursos para el dashboard en Tableau                         |
+| `Dashboard/dash_data_tableau.csv` | CSV   | Datos procesados para visualizaciones (exportados desde Python) |
+| `Dashboard/Dashboard.twbx`   | Tableau     | Dashboard interactivo de análisis de operadores               |
+| `Dashboard/Link dashboard.txt` | TXT       | Enlace público al dashboard en Tableau Public                 |
+| `Informe Técnico.pdf`        | PDF         | Informe técnico con análisis detallado y conclusiones         |
+| `ProyectoFinal.ipynb`        | Notebook    | Desarrollo completo del proyecto en Jupyter Notebook          |
+| `README.md`                  | Markdown    | Descripción general del proyecto y guía de uso                |
+| `telecom_clients.csv`        | CSV         | Datos de clientes y planes tarifarios                         |
+| `telecom_dataset_new.csv`    | CSV         | Registros de llamadas y métricas de operadores                |
